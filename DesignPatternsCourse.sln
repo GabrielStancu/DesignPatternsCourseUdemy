@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "Sin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{C9C4B429-8FD0-46BB-8010-E7319906FCCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDP", "BuilderDP\BuilderDP.csproj", "{9E3AFB6D-D52E-4958-A186-763A8AFBC400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDP", "BuilderDP\BuilderDP.csproj", "{9E3AFB6D-D52E-4958-A186-763A8AFBC400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDP", "FactoryMethodDP\FactoryMethodDP.csproj", "{BF7EFA08-C020-4916-9401-64622980CE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDP", "AbstractFactoryDP\AbstractFactoryDP.csproj", "{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{9E3AFB6D-D52E-4958-A186-763A8AFBC400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E3AFB6D-D52E-4958-A186-763A8AFBC400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E3AFB6D-D52E-4958-A186-763A8AFBC400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7EFA08-C020-4916-9401-64622980CE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7EFA08-C020-4916-9401-64622980CE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7EFA08-C020-4916-9401-64622980CE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7EFA08-C020-4916-9401-64622980CE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
