@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "Depe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDP", "BuilderDP\BuilderDP.csproj", "{9E3AFB6D-D52E-4958-A186-763A8AFBC400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDP", "FactoryMethodDP\FactoryMethodDP.csproj", "{BF7EFA08-C020-4916-9401-64622980CE57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodDP", "FactoryMethodDP\FactoryMethodDP.csproj", "{BF7EFA08-C020-4916-9401-64622980CE57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDP", "AbstractFactoryDP\AbstractFactoryDP.csproj", "{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryDP", "AbstractFactoryDP\AbstractFactoryDP.csproj", "{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{DE85F91B-03F5-4E24-9843-4C081871EC5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32B07CB-13BB-4994-BE4B-4C5534B0C35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE85F91B-03F5-4E24-9843-4C081871EC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE85F91B-03F5-4E24-9843-4C081871EC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE85F91B-03F5-4E24-9843-4C081871EC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE85F91B-03F5-4E24-9843-4C081871EC5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
