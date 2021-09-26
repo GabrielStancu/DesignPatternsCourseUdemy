@@ -18,13 +18,10 @@ namespace DependencyInversion
 
         public IEnumerable<Person> FindAllChildrenOf(string name)
         {
-            foreach (var r in _relationships.Where(
-                    x => x.From.Name == name &&
-                         x.R == Relationship.Parent
-                ))
-            {
-                yield return r.To;
-            }
+            return _relationships.Where(
+                                x => x.From.Name == name &&
+                                     x.R == Relationship.Parent
+                            ).Select(r => r.To);
         }
     }
 }

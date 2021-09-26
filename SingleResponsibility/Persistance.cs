@@ -11,7 +11,7 @@ namespace SingleResponsibility
         {
             if(overwrite || !File.Exists(fileName))
             {
-                File.WriteAllText(fileName, ToString());
+                File.WriteAllText(fileName, j.ToString());
             }
         }
 
